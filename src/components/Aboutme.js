@@ -22,7 +22,7 @@ export default function Aboutme() {
                             <span>< FcExport size={20} /></span>
                             <p>10+ Projects </p>
                         </div>
-                        <p className='brifTextAboutme'>I’ve spent the last several months in a remote environment, working with HTML, CSS, JavaScript, building everything from landing pages to APIs. My experience as a teacher in an international school helped me collaborate with fellow developers from all over the world. Additionally, working with kids isn’t an easy task, however, it has helped me become efficient, productive, and fast even in a very stressful environment, which is an important skill in the tech industry.</p>
+                        <p className='brifTextAboutme'>Hello there, my name is Jahidul islam. i am a frontend developer with mid level of backend development knowledge. I love to Work with Javascript and love to learn new tech.Currently i am working as a project base frontend developer with a freelecer. I have work in many local project's and finished them with client satisfiction. I am learning everyday and want to collaborate with my skill in big project. during my collaboration i have gone through in many different environment and bugs which helped me to laern the depth of frontend tech. if you have an project or need a full-time frontend developer please contact with me. </p>
                         <div >
                             <button className='btn'>Talk With me</button>
                         </div>

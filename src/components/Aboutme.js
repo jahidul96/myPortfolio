@@ -22,9 +22,9 @@ export default function Aboutme() {
                             <span>< FcExport size={20} /></span>
                             <p>10+ Projects </p>
                         </div>
-                        <p className='brifTextAboutme'>Hello there, my name is Jahidul islam. i am a frontend developer with mid level of backend development knowledge. I love to Work with Javascript and love to learn new tech.Currently i am working as a project base frontend developer with a freelecer. I have work in many local project's and finished them with client satisfiction. I am learning everyday and want to collaborate with my skill in big project. during my collaboration i have gone through in many different environment and bugs which helped me to laern the depth of frontend tech. if you have an project or need a full-time frontend developer please contact with me. </p>
+                        <p className='brifTextAboutme'>Hello there, my name is Jahidul islam. i am a frontend developer with mid level of backend development knowledge. I love to Work with Javascript and love to learn new tech.Currently i am working as a project base frontend developer with a freelencer. I have work in many local project's and finished them with client satisfiction. I am learning everyday and want to collaborate with my skill in big project. during my collaboration i have gone through in many different environment and bugs which helped me to laern the depth of frontend tech. if you have an project or need a full-time frontend developer please contact with me. </p>
                         <div >
-                            <button className='btn'>Talk With me</button>
+                            <a href='https://www.facebook.com/dreamboy.jihad.3/' target="_blank"> <button className='btn'>Talk With me</button></a>
                         </div>
                     </div>
                 </div>

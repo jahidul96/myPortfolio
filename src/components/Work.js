@@ -37,7 +37,7 @@ const workData = [
     {
         id: 4,
         image: Shop,
-        link: "https://travelwebbd.netlify.app/",
+        link: "https://shopappui.netlify.app/",
         title: "Shop app",
         gitrepo: "https://github.com/jahidul96/ShopappEcomerceUi"
     },

@@ -1,18 +1,34 @@
 import React from 'react'
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 import { FcExport } from 'react-icons/fc'
 import profile from '../images/p.png'
+AOS.init()
 
 export default function Aboutme() {
     return (
         <div className='aboutMeContainer'>
             <h3>About me</h3>
             <div className='aboutBrifContainer'>
-                <div className='leftAboutDiv'>
-                    <div className='myImageWrapper'>
+                <div
+                    className='leftAboutDiv'>
+                    <div
+                        data-aos="fade-right"
+                        data-aos-delay="50"
+                        data-aos-duration="1000"
+                        data-aos-easing="ease-in-out"
+                        data-aos-anchor-placement="top-center"
+                        className='myImageWrapper'>
                         <img src={profile} />
                     </div>
                 </div>
-                <div className='myDetailsWrapper'>
+                <div
+                    data-aos="fade-left"
+                    data-aos-delay="50"
+                    data-aos-duration="1000"
+                    data-aos-easing="ease-in-out"
+                    data-aos-anchor-placement="top-center"
+                    className='myDetailsWrapper'>
                     <div>
                         <div className='experienceDiv'>
                             <span>< FcExport size={20} /></span>

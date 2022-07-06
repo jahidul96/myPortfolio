@@ -1,10 +1,12 @@
-import React from 'react'
+
+import 'aos/dist/aos.css';
 import { AiFillLinkedin, AiFillGithub, AiOutlineMail } from 'react-icons/ai'
 import { BsFacebook, BsMessenger, BsInstagram } from 'react-icons/bs'
 
 export default function Contact() {
     return (
-        <div className='contactWrapper'>
+        <div
+            className='contactWrapper'>
             <h2>Contact With Me</h2>
             <div className='contactIconWrapper'>
                 <span><a href='https://www.linkedin.com/in/jahidul-islam-9b3a40231/' target="_blank"><AiFillLinkedin className='icon' /></a></span>

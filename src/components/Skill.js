@@ -1,12 +1,21 @@
 import React from 'react'
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 import RightMark from '../images/mark.svg'
+AOS.init()
 
 export default function Skill() {
     return (
         <div className='skillDiv'>
             <h2>My Skill</h2>
             <div className='flexSkill'>
-                <div className='frontendDiv'>
+                <div
+                    data-aos="fade-right"
+                    data-aos-delay="50"
+                    data-aos-duration="1000"
+                    data-aos-easing="ease-in-out"
+                    data-aos-anchor-placement="top-center"
+                    className='frontendDiv'>
                     <h3>Frontend Development.</h3>
                     <div className='sikllItemDiv'>
                         <div>
@@ -43,7 +52,13 @@ export default function Skill() {
                         </div>
                     </div>
                 </div>
-                <div className='frontendDiv'>
+                <div
+                    data-aos="fade-left"
+                    data-aos-delay="50"
+                    data-aos-duration="1000"
+                    data-aos-easing="ease-in-out"
+                    data-aos-anchor-placement="top-center"
+                    className='frontendDiv borderStyleDiv'>
                     <h3>Backend Development.</h3>
                     <div className='sikllItemDiv'>
                         <div>
@@ -75,7 +90,13 @@ export default function Skill() {
             </div>
 
             <div className='toolSection'>
-                <div className='familiarDiv'>
+                <div
+                    data-aos="fade-right"
+                    data-aos-delay="50"
+                    data-aos-duration="1000"
+                    data-aos-easing="ease-in-out"
+                    data-aos-anchor-placement="top-center"
+                    className='familiarDiv'>
                     <h3>Tool I'm Familiar</h3>
                     <div className='sikllItemDiv'>
                         <div>
@@ -102,7 +123,13 @@ export default function Skill() {
                     </div>
                 </div>
 
-                <div className='familiarDiv'>
+                <div
+                    data-aos="fade-left"
+                    data-aos-delay="50"
+                    data-aos-duration="1000"
+                    data-aos-easing="ease-in-out"
+                    data-aos-anchor-placement="top-center"
+                    className='familiarDiv'>
                     <h3>Familiar Tech</h3>
                     <div className='sikllItemDiv'>
                         <div>

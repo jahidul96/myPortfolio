@@ -130,15 +130,17 @@ const workData = [
 export default function Work() {
     return (
         <div
-            data-aos="fade-right"
-            data-aos-delay="50"
-            data-aos-duration="1000"
-            data-aos-easing="ease-in-out"
-            data-aos-anchor-placement="top-center"
+
             className='workRoot'>
             <h2>My Recent Work</h2>
 
-            <div className='workDemoWrapper'>
+            <div
+                data-aos="fade-right"
+                data-aos-delay="50"
+                data-aos-duration="1000"
+                data-aos-easing="ease-in-out"
+                data-aos-anchor-placement="top-center"
+                className='workDemoWrapper'>
                 {
                     workData.map(data => (
                         <div key={data.id} className="wordDemoItem">

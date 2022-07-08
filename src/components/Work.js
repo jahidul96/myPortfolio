@@ -134,22 +134,22 @@ export default function Work() {
             className='workRoot'>
             <h2>My Recent Work</h2>
 
-            <div
-                data-aos="fade-right"
-                data-aos-delay="50"
-                data-aos-duration="1000"
-                data-aos-easing="ease-in-out"
-                data-aos-anchor-placement="top-center"
-                className='workDemoWrapper'>
+            <div className='workDemoWrapper'>
                 {
                     workData.map(data => (
-                        <div key={data.id} className="wordDemoItem">
+                        <div
+                            data-aos="fade-right"
+                            data-aos-delay="50"
+                            data-aos-duration="1000"
+                            data-aos-easing="ease-in-out"
+                            data-aos-anchor-placement="top-center"
+                            key={data.id} className="wordDemoItem">
                             <img src={data.image} alt={data.title} />
 
                             <div className='workDownContainer'>
                                 <h3>{data.title}</h3>
                                 <div className='workLinkBtnDiv'>
-                                    <a href={data.link} target="_blank">
+                                    <a href={data.gitrepo} target="_blank">
                                         <button className='worklinkBtn'>View Github</button>
                                     </a>
                                     <a href={data.link} target="_blank">
